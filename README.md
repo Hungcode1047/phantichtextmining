@@ -37,6 +37,7 @@ Scale: Over 10,000 feedback sentences.
 
 Attributes: Includes sentiment labels (positive, negative, neutral) and topic categories (lecturers, curriculum, facilities).
 
+
 🚀 Workflow
 
 Preprocessing: Tokenization and text normalization using Vietnamese-specific NLP toolkits.
@@ -47,8 +48,11 @@ Model Building: Training the LDA model to discover hidden themes and applying Ph
 
 Visualization: Generating Word Clouds and frequency charts to display the most significant keywords for each topic.
 
+
 📈 Key Findings
+
 The models successfully identified 4 main topic groups: Lecturers, Curriculum, Facilities, and Service Quality.
+
 LDA Performance: Provided a good baseline for grouping by frequency but occasionally struggled with overlapping content or ambiguous topics.
 
 PhoBERT Performance: Demonstrated a superior ability to capture context, especially in long or complex sentences.
